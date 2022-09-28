@@ -166,12 +166,10 @@ let carrito = [];
     return carrito
       .reduce((total, item) => {
         const ITEM = listaProductos.filter((itemBaseDatos) => {
-          return itemBaseDatos.id === parseInt(item);
+          return itemBaseDatos.id == item;
         });
-        return total + ITEM[0].precioprenda;
-      }, 0)
-      .toFixed(0);
-  }
+        return parseInt(total) + parseInt(ITEM[0].precioprenda);
+      }, 0);
 
   function vaciarCarrito() {
     carrito = [];
