@@ -170,6 +170,7 @@ let carrito = [];
         });
         return parseInt(total) + parseInt(ITEM[0].precioprenda);
       }, 0);
+    }
 
   function vaciarCarrito() {
     carrito = [];
