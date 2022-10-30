@@ -1,9 +1,15 @@
+.banner {
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    height: 40vh;
+  }
+
 .titulo {
     text-align: center;
-    padding: 2px;
+    padding:150px;
     margin: auto;
-    background-color: rgb(254, 240, 159);
-
+    width: auto;
+    color: white;
 }
 
 .texto {
@@ -58,4 +64,35 @@
 
 .terms {
     text-align: center;
+}
+
+footer {
+    padding: 25px;
+    background-color: #7D5A50;
+    margin-top: 150px;
+  }
+  footer .piedePag {
+    color: antiquewhite;
+    font-family: "Anek Malayalam", sans-serif;
+    font-size: 30px;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    text-align: center;
+  }
+  footer .flexContainerFooter {
+    display: flex;
+    justify-content: center;
+  }
+  footer .flexContainerFooter > div {
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  footer h3 {
+    color: azure;
+    font-family: "Anek Malayalam", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
 }
